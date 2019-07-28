@@ -23,7 +23,7 @@ public class OneToManyBiDirectional {
 		tech1.setName("JAVA");
 		
 		Technology tech2 = new Technology();
-		tech1.setName("Angualar");
+		tech2.setName("Angualar");
 		
 		Set<Developer> tecDev1 = new HashSet<>();
 		Set<Developer> tecDev2 = new HashSet<>();
