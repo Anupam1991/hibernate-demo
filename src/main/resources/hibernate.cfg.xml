@@ -36,8 +36,8 @@
 		<mapping class="com.hibernate.entity.Developer" />
 		<mapping class="com.hibernate.entity.Technology" />
 
-		
-
+		<mapping class="com.hibernate.entity.Certification" />
+		<mapping class="com.hibernate.entity.Employee" />
 
 	</session-factory>
 </hibernate-configuration>
