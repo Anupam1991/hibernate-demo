@@ -28,7 +28,7 @@
 		<!-- Echo all executed SQL to stdout -->
 		<property name="show_sql">false</property>
 
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto">update</property>
 
 		<mapping class="com.hibernate.entity.Student" />
 		<mapping class="com.hibernate.entity.Address" />
@@ -38,6 +38,11 @@
 
 		<mapping class="com.hibernate.entity.Certification" />
 		<mapping class="com.hibernate.entity.Employee" />
+		
+		
+		<mapping class="com.hibernate.entity.Product" />
+		<mapping class="com.hibernate.entity.Category" />
+		<mapping class="com.hibernate.entity.Brand" />
 
 	</session-factory>
 </hibernate-configuration>
